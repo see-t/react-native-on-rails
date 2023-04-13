@@ -1,7 +1,5 @@
 /**
- * ============================================================================
  * @GovernorAuthority
- * ============================================================================
  */
 
 module.exports = {
@@ -26,6 +24,7 @@ module.exports = {
         root: ['.'],
       },
     ],
+    'react-native-reanimated/plugin', // Reanimated plugin has to be listed last.
   ],
   presets: ['module:metro-react-native-babel-preset'],
 }

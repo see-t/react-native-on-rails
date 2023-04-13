@@ -23,5 +23,6 @@
       "utils": ["src/utils"]
     }
   },
-  "include": ["index.js", "App.tsx", "src/**/*"]
+  "include": ["index.js", "App.tsx", "src/**/*"],
+  "exclude": ["node_modules"]
 }

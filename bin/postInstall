@@ -17,7 +17,7 @@ if (['darwin', 'linux'].includes(process.platform)) {
   run('pkill -f "cli.js start" || set exit 0')
 }
 
-run('npx pod-install')
+run('cd ios && RCT_NEW_ARCH_ENABLED=1 pod install && cd ..')
 
 /**
  * @description Do all things that need to be done after installing packages (with yarn, npm, pnpm).
