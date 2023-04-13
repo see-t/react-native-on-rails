@@ -20,7 +20,6 @@ import {
 type SectionProps = PropsWithChildren<{
   title: string
 }>
-
 function Section({ children, title }: SectionProps): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark'
   return (
@@ -59,8 +58,8 @@ function App(): JSX.Element {
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
+        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
       />
       <ScrollView contentInsetAdjustmentBehavior='automatic' style={backgroundStyle}>
         <Header />
@@ -84,21 +83,21 @@ function App(): JSX.Element {
 }
 
 const styles = StyleSheet.create({
+  highlight: {
+    fontWeight: '700',
+  },
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
   },
+  sectionDescription: {
+    fontSize: 18,
+    fontWeight: '400',
+    marginTop: 8,
+  },
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
   },
 })
 
