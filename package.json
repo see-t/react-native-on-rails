@@ -8,6 +8,7 @@
     "lint": "eslint . --fix",
     "format": "prettier --write .",
     "prepare": "husky install",
+    "postinstall": "node ./bin/postInstall",
     "test": "jest"
   },
   "dependencies": {
