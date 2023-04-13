@@ -15,6 +15,7 @@ module.exports = {
     'no-shadow': 'warn',
     'prettier/prettier': 'off',
     'react/jsx-sort-props': 'error',
+    'react/react-in-jsx-scope': 'off',
     'simple-import-sort/exports': 'error',
     'simple-import-sort/imports': 'error',
     'sort-keys-fix/sort-keys-fix': ['error', 'asc', { caseSensitive: false, natural: true }],
