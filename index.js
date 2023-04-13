@@ -1,5 +1,6 @@
-// disable eslint for this file
-// eslint-disable-next-line
+/**
+ * @format
+ */
 
 import { AppRegistry } from 'react-native'
 
