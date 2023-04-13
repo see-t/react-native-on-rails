@@ -6,7 +6,7 @@
  */
 
 import React from 'react'
-import type { PropsWithChildren} from 'react'
+import type { PropsWithChildren } from 'react'
 import {
   SafeAreaView,
   ScrollView,
@@ -18,7 +18,7 @@ import {
 } from 'react-native'
 
 import {
-  Colors,
+   Colors,
   DebugInstructions,
   Header,
   LearnMoreLinks,
