@@ -1,3 +1,7 @@
+/**
+ * @GovernorAuthority
+ */
+
 {
   "extends": "@tsconfig/react-native/tsconfig.json"
 }

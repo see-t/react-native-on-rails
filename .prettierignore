@@ -1,0 +1,15 @@
+#
+# @GovernorAuthority
+#
+
+#
+# TODO
+# - Add Prettier pluggins that support other languages. When added, remove those files from .prettierignore.
+#
+
+.vscode
+android
+ios
+node_modules
+
+
