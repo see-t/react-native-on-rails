@@ -14,7 +14,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@klarna/react-native-vector-drawable": "^0.4.0",
     "@react-native-async-storage/async-storage": "^1.18.1",
     "@react-native-community/netinfo": "^9.3.9",
     "@react-navigation/bottom-tabs": "^6.5.7",
@@ -47,7 +46,6 @@
     "react-native-svg": "^13.9.0",
     "react-native-tab-view": "^3.5.1",
     "react-native-vector-icons": "^9.2.0",
-    "react-native-vector-image": "^0.4.0",
     "yarn": "^1.22.19",
     "zod": "^3.21.4"
   },
