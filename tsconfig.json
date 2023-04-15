@@ -7,8 +7,9 @@
 {
   "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
-    "strict": true,
-    "allowJs": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
     "baseUrl": ".",
     "paths": {
       "api": ["./src/api"],
@@ -24,6 +25,5 @@
       "utils": ["src/utils"]
     }
   },
-  "include": ["index.js", "App.tsx", "src/**/*"],
-  "exclude": ["node_modules"]
+  "include": ["index.js", "App.tsx", "src/**/*"]
 }
