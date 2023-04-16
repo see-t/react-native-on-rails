@@ -1,6 +1,16 @@
 {
   "name": "react-native-on-rails",
   "version": "1.0.0",
+  "repository": "https://github.com/see-t/react-native-on-rails.git",
+  "keywords": [
+    "react-native",
+    "react-native-on-rails",
+    "react-native-on-rails-template"
+  ],
+  "author": "Bilal Korir",
+  "license": "MIT",
+  "private": false,
+  "description": "React Native on Rails template",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
