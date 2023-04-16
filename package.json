@@ -9,5 +9,9 @@
   ],
   "author": "Bilal Korir",
   "license": "MIT",
-  "description": "React Native on Rails template"
+  "description": "React Native on Rails template",
+  "files": [
+    "template",
+    "template.config.js"
+  ]
 }
