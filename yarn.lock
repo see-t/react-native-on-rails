@@ -5675,6 +5675,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"deprecated-react-native-prop-types@npm:^2.2.0":
+  version: 2.3.0
+  resolution: "deprecated-react-native-prop-types@npm:2.3.0"
+  dependencies:
+    "@react-native/normalize-color": "*"
+    invariant: "*"
+    prop-types: "*"
+  checksum: d14f4be1dfe780a7fa9197a31b4a9a2b409c8cf1bf677713fd92d06733dee1043578662d1a8858541cf06164ae91d295db6e595f29bf13e808d9fb37bc58c90b
+  languageName: node
+  linkType: hard
+
 "deprecated-react-native-prop-types@npm:^3.0.1":
   version: 3.0.1
   resolution: "deprecated-react-native-prop-types@npm:3.0.1"
@@ -8600,6 +8611,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"keymirror@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "keymirror@npm:0.1.1"
+  checksum: be8f0bc5ff7d561d729f935ef55b4dbbea7b56a4714f044a2212088730f4d52f73935c38c5a9604e0f1157611725ee493cb7d08d1f3eb34151c0aa999236206a
+  languageName: node
+  linkType: hard
+
 "kind-of@npm:^3.0.2, kind-of@npm:^3.0.3, kind-of@npm:^3.2.0":
   version: 3.2.2
   resolution: "kind-of@npm:3.2.2"
@@ -10682,6 +10700,7 @@ __metadata:
     react-native-svg: ^13.9.0
     react-native-svg-transformer: ^1.0.0
     react-native-tab-view: ^3.5.1
+    react-native-video: alpha
     react-test-renderer: 18.2.0
     typescript: ^5.0.4
     yarn: ^1.22.19
@@ -10796,6 +10815,17 @@ __metadata:
     react-native: "*"
     react-native-pager-view: "*"
   checksum: 22213e8bde3b0e16631d290a3da146789dcad461dbdc424cf6448c683a2d75c12abbae5aa329c83788123f6dd0865b451ba57848856483607327fb5fdad2fe12
+  languageName: node
+  linkType: hard
+
+"react-native-video@npm:alpha":
+  version: 6.0.0-alpha.6
+  resolution: "react-native-video@npm:6.0.0-alpha.6"
+  dependencies:
+    deprecated-react-native-prop-types: ^2.2.0
+    keymirror: ^0.1.1
+    prop-types: ^15.7.2
+  checksum: f002443a9e858209aedd2ec78a6f7f928825399dfc577b7cdd7bed36a50e275dfda499ebc15e5513fa3270938cb4ee40eaed9675ccf2cb4ece6a56d26b752932
   languageName: node
   linkType: hard
 

@@ -87,6 +87,9 @@ PODS:
     - libwebp/demux
   - libwebp/webp (1.2.4)
   - OpenSSL-Universal (1.1.1100)
+  - PromisesObjC (2.2.0)
+  - PromisesSwift (2.2.0):
+    - PromisesObjC (= 2.2.0)
   - RCT-Folly (2021.07.22.00):
     - boost
     - DoubleConversion
@@ -358,6 +361,12 @@ PODS:
     - React
     - React-callinvoker
     - React-Core
+  - react-native-video (6.0.0-alpha.6):
+    - React-Core
+    - react-native-video/Video (= 6.0.0-alpha.6)
+  - react-native-video/Video (6.0.0-alpha.6):
+    - PromisesSwift
+    - React-Core
   - React-perflogger (0.71.6)
   - React-RCTActionSheet (0.71.6):
     - React-Core/RCTActionSheetHeaders (= 0.71.6)
@@ -554,6 +563,7 @@ DEPENDENCIES:
   - react-native-pager-view (from `../node_modules/react-native-pager-view`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - "react-native-skia (from `../node_modules/@shopify/react-native-skia`)"
+  - react-native-video (from `../node_modules/react-native-video`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -595,6 +605,8 @@ SPEC REPOS:
     - libevent
     - libwebp
     - OpenSSL-Universal
+    - PromisesObjC
+    - PromisesSwift
     - SDWebImage
     - SDWebImageWebPCoder
     - SocketRocket
@@ -655,6 +667,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-safe-area-context"
   react-native-skia:
     :path: "../node_modules/@shopify/react-native-skia"
+  react-native-video:
+    :path: "../node_modules/react-native-video"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -725,6 +739,8 @@ SPEC CHECKSUMS:
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   libwebp: f62cb61d0a484ba548448a4bd52aabf150ff6eef
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  PromisesSwift: cf9eb58666a43bbe007302226e510b16c1e10959
   RCT-Folly: 424b8c9a7a0b9ab2886ffe9c3b041ef628fd4fb1
   RCTRequired: 5c6fd63b03abb06947d348dadac51c93e3485bd8
   RCTTypeSafety: 1c66daedd66f674e39ce9f40782f0d490c78b175
@@ -746,6 +762,7 @@ SPEC CHECKSUMS:
   react-native-pager-view: 037b3949788e38cb5ddfb44b854012804e803655
   react-native-safe-area-context: f5549f36508b1b7497434baa0cd97d7e470920d4
   react-native-skia: c90c83e2cde1306cc7c4170d2bd4c0426446e270
+  react-native-video: fee89269ad07556d960721f3b62e39be6ace3c90
   React-perflogger: 43392072a5b867a504e2b4857606f8fc5a403d7f
   React-RCTActionSheet: c7b67c125bebeda9fb19fc7b200d85cb9d6899c4
   React-RCTAnimation: c2de79906f607986633a7114bee44854e4c7e2f5
