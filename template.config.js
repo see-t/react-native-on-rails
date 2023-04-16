@@ -1,5 +1,8 @@
 module.exports = {
-  placeholderName: 'ReactNativeOnRailsTemplate',
+  // Placeholder used to rename and replace in files
+  // package.json, index.json, android/, ios/
+  placeholderName: 'ProjectName',
+
+  // Directory with template
   templateDir: './template',
-  titlePlaceholder: 'React Native On Rails Template',
 }
