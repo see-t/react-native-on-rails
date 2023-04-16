@@ -9,6 +9,5 @@
   ],
   "author": "Bilal Korir",
   "license": "MIT",
-  "private": false,
   "description": "React Native on Rails template"
 }
