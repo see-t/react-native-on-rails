@@ -1,6 +1,6 @@
 {
   "name": "react-native-on-rails",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "repository": "https://github.com/see-t/react-native-on-rails.git",
   "keywords": [
     "react-native",
@@ -19,8 +19,6 @@
     "generate-bootsplash": "yarn react-native generate-bootsplash ./src/assets/splash-screen/splash-screen.png --background-color=000000 --logo-width=100 --flavor=main",
     "lint": "eslint . --fix",
     "format": "prettier --write .",
-    "prepare": "husky install",
-    "postinstall": "node ./bin/postInstall",
     "test": "jest"
   },
   "dependencies": {
