@@ -1,6 +1,6 @@
 module.exports = {
   placeholderName: 'ReactNativeOnRailsTemplate',
-  postInitScript: './postInitScript.js',
+  postInitScript: './script.js',
   templateDir: './',
   titlePlaceholder: 'React Native On Rails Template',
 }
